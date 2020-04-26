@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".SplashScreenActivity">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="388dp"
+        android:layout_marginStart="@dimen/IV_1"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="160dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_manage" />
 </androidx.constraintlayout.widget.ConstraintLayout>
